@@ -7,7 +7,7 @@ export default function HeroSection() {
     return (
         <section className="hero-section">
             <nav className="navbar">
-                <img className="logo" src="/assets/img/logo-icon.png" alt="Logo" />
+                <img className="logo" src="/yasmin-lino/assets/img/logo-icon.png" alt="Logo" />
 
                 <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
                     ☰
@@ -30,7 +30,7 @@ export default function HeroSection() {
 
                     {/* Imagem só para mobile */}
                     <div className="mobile-img">
-                        <img src="/assets/img/perfil.jpg" alt="Yasmin Lino" />
+                        <img src="/yasmin-lino/assets/img/perfil.jpg" alt="Yasmin Lino" />
                     </div>
 
                     <h2>Desenvolvedora de sites e páginas de vendas personalizadas.</h2>
@@ -43,7 +43,7 @@ export default function HeroSection() {
 
                 {/* Imagem padrão (desktop) */}
                 <div className="hero-image">
-                    <img src="/assets/img/perfil.jpg" alt="Yasmin Lino" />
+                    <img src="/yasmin-lino/assets/img/perfil.jpg" alt="Yasmin Lino" />
                 </div>
 
             </div>
